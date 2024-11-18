@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Mon Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Port<span>folio</span></a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#realisation">Réalisation</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Section Accueil -->
+    <div class="--header-content--" id="home">
+        <div class="texte" data-aos="fade-right">
+            <p>Enchanté je m'appelle <span class="pink-text">Abdelkrim</span></p>
+            <h1>Je suis passionné par <span class="pink-text">l'Informatique</span></h1>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/abdelkrim-b-6b1145205/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href=https://github.com/AbdelkrimBelmokhtar target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="https://drive.google.com/uc?export=download&id=1PA5ftzZGkBKxOuYmYfZ3CCEiSLIn6M6n" download class="btn">Téléchargez mon CV</a>
+        </div>
+        <div class="photo" data-aos="zoom-in">
+            <img src="Img/Photo_pro_abdelkrim.jpg" alt="Photo de Abdelkrim" />
+        </div>
+    </div>
+    
+    <!-- Section À propos de moi -->
+    <section class="about" id="about" data-aos="fade-up">
+        <div class="about-img">
+            <img src="Img/Photo_pro_abdelkrim.jpg" alt="Photo de Abdelkrim">
+        </div>
+        <div class="about-text">
+            <h2 class="title pink-text">À propos de <span>moi</span></h2>
+            <h1>Développeur Backend !</h1>
+            <p>
+                Je suis un étudiant passionné, titulaire d'une licence en informatique générale obtenue en alternance au CNAM, ainsi que d'un bachelor en développement de solutions numériques. Curieux, motivé et toujours prêt à relever de nouveaux défis, j'adore l'informatique sous toutes ses formes et trouve un réel plaisir dans le code. Mon objectif est de continuer à apprendre et à évoluer dans le domaine de l'informatique pour créer des solutions innovantes et performantes.
+            </p>
+            <a href="#" class="btn">Voir Plus</a>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="services" id="services" data-aos="fade-up">
+        <h2 class="title"><span>S</span>ervices</h2>
+        <div class="Services-container">
+            <div class="services-box" data-aos="zoom-in">
+                <i class='bx bx-code-alt'></i>
+                <h2>Développement</h2>
+                <p>Voici les projets que j'ai réalisés</p>
+                <a href=https://github.com/AbdelkrimBelmokhtar class="btn">Voir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Réalisation -->
+    <!-- <section class="realisation" id="realisation" data-aos="fade-up">
+        <h2 class="title"><span>R</span>éalisation</h2>
+        <div class="realisation-content">
+            <p class="description">Découvrez mes réalisations et contributions aux projets open-source sur GitHub.</p>
+            <a href="https://github.com/AbdelkrimBelmokhtar" target="_blank" class="btn">Mon GitHub</a>
+        </div>
+    </section> -->
+
+    <!-- Section Contact -->
+    <section class="contact" id="contact" data-aos="fade-up">
+        <h2 class="title"><span>C</span>ontact</h2>
+        <div class="contact-info">
+            <p><span class="pink-text">Adresse mail :</span> abdelkrim.pro@outlook.fr</p>
+            <p><span class="pink-text">Téléphone portable :</span> 06.68.77.74.58</p>
+            <p><span class="pink-text">Permis :</span> B + véhiculé</p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            offset: 50,
+            once: false  // Désactive `once` pour que les animations se répètent
+        });
+    </script>
+</body>
+</html>
